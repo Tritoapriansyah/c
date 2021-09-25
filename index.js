@@ -19,7 +19,7 @@ CFonts.say('AN\nBOT\nDIDIN', {
   gradient: ['red', 'magenta']
 })
 function start() {
-  let args = [path.join('anBOT-D.js'), ...process.argv.slice(2)]
+  let args = [path.join('castle.js'), ...process.argv.slice(2)]
   CFonts.say([process.argv[0], ...args].join(' '), {
     font: 'console',
     align: 'center',
